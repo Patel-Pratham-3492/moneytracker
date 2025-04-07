@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.informationback
+{
+    background-color: lightgray;
+}
+
+.informationfont
+{
+    color:black;
+    font-family: "Ephesis", cursive;
+    font-weight: bold;
+}

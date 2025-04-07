@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+.Dmaincontainer
+{
+    background-color: lightgray;
+}
+
+.Dmaincolor
+{
+    background-color: #0d6efd;
+}
+
+.Dmaintext{
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.Dmainstyle
+{
+    font-family: "Ephesis", cursive;
+    font-weight: bolder;
+}

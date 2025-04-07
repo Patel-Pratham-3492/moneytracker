@@ -1,0 +1,25 @@
+.priceback
+{
+    background-color: lightgray
+
+}
+
+.priceback1
+{
+    color: white;
+    background-color:#0d6efd;
+    
+}
+
+.priceTitle{
+    color: black;
+    font-family: "Ephesis", cursive;
+    font-weight: bold;
+}
+
+.priceSlogan{
+    font-family: "Ephesis", cursive;
+    font-weight: bolder;
+    color:#0d6efd;
+}
+
