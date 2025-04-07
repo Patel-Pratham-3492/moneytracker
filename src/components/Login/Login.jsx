@@ -130,10 +130,10 @@ function Login(props, ref)
                                 <div className="row mb-5">
                                     <div className="col"></div>
                                     <div className="col">
-                                        <button type="submit" onClick={goToDashboard}  className="btn btn-primary fw-bold">Login</button>
+                                        <button onClick={goToDashboard}  className="btn btn-primary fw-bold">Login</button>
                                     </div>
                                     <div className="col">
-                                        <button type="submit" onClick={goToSignUp} className="btn btn-primary fw-bold">Sign Up</button>
+                                        <button onClick={goToSignUp} className="btn btn-primary fw-bold">Sign Up</button>
                                     </div>
                                     <div className="col">
                 
