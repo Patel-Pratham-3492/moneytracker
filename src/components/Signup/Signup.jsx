@@ -93,7 +93,7 @@ export default function SignUp()
                                     <button onClick={handleSignup}  className="btn btn btn-dark fw-bold">Sign Up</button>
                                 </div>
                                 <div className="col"></div>
-                                <div className="row mt-5 ms-3 display-5"> {error && <p className="row text-dark fw-bold ms-5 lightcolorsign">{error}</p>}</div>
+                                <div className="row mt-5 ms-1 display-5"> {error && <p className="row text-dark fw-bold ms-5 lightcolorsign">{error}</p>}</div>
                             </div>
                         </form>):(
                         <form className="d-flex flex-column bg-primary border border-3 border-dark rounded">
