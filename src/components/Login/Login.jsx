@@ -4,6 +4,7 @@ import Title1 from "../title/title";
 import React from "react";
 import { useState,useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
@@ -133,7 +134,7 @@ function Login(props, ref)
                                         <button onClick={goToDashboard}  className="btn btn-primary fw-bold">Login</button>
                                     </div>
                                     <div className="col">
-                                        <button onClick={goToSignUp} className="btn btn-primary fw-bold">Sign Up</button>
+                                        <Link to="/SignUpPage" className="btn btn-primary fw-bold" onClick={goToSignUp}>Sign Up</Link>
                                     </div>
                                     <div className="col">
                 
