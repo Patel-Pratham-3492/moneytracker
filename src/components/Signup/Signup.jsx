@@ -87,10 +87,10 @@ export default function SignUp()
                             <div className="row mb-5">
                                 <div className="col"></div>
                                 <div className="col">
-                                    <button type="submit" onClick={goLogin} className="btn btn btn-dark fw-bold">Login</button>
+                                    <button onClick={goLogin} className="btn btn btn-dark fw-bold">Login</button>
                                 </div>
                                 <div className="col">
-                                    <button type="submit" onClick={handleSignup}  className="btn btn btn-dark fw-bold">Sign Up</button>
+                                    <button onClick={handleSignup}  className="btn btn btn-dark fw-bold">Sign Up</button>
                                 </div>
                                 <div className="col"></div>
                                 <div className="row mt-5 ms-3 display-5"> {error && <p className="row text-dark fw-bold ms-5 lightcolorsign">{error}</p>}</div>
@@ -104,7 +104,7 @@ export default function SignUp()
                             <div className="row mb-5">
                             <div className="col"></div>
                                 <div className="col">
-                                    <button type="submit" onClick={handleOtpVerification} className="btn btn btn-dark fw-bold mt-3">Submit</button>
+                                    <button onClick={handleOtpVerification} className="btn btn btn-dark fw-bold mt-3">Submit</button>
                                 </div>
                                 <div className="col"></div>
                             </div>
